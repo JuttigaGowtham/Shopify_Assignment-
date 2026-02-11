@@ -51,10 +51,10 @@ const Footer = () => {
                             Connect
                         </h3>
                         <div className="flex gap-4">
-                            <a href="#" className="p-2 bg-slate-50 hover:bg-indigo-50 hover:text-indigo-600 rounded-full transition-all duration-300">
+                            <a href="/" className="p-2 bg-slate-50 hover:bg-indigo-50 hover:text-indigo-600 rounded-full transition-all duration-300">
                                 <Github className="w-5 h-5" />
                             </a>
-                            <a href="#" className="p-2 bg-slate-50 hover:bg-blue-50 hover:text-blue-600 rounded-full transition-all duration-300">
+                            <a href="/" className="p-2 bg-slate-50 hover:bg-blue-50 hover:text-blue-600 rounded-full transition-all duration-300">
                                 <Linkedin className="w-5 h-5" />
                             </a>
                             <a href="mailto:jobs@qressy.com" className="p-2 bg-slate-50 hover:bg-rose-50 hover:text-rose-600 rounded-full transition-all duration-300">
@@ -69,8 +69,8 @@ const Footer = () => {
                         Technical Assessment &bull; Qressy Jobs &bull; 2026
                     </p>
                     <div className="flex gap-6 text-[11px] font-medium text-slate-400">
-                        <a href="#" className="hover:text-indigo-600 transition-colors uppercase tracking-wider">Privacy Policy</a>
-                        <a href="#" className="hover:text-indigo-600 transition-colors uppercase tracking-wider">Documentation</a>
+                        <a href="/" className="hover:text-indigo-600 transition-colors uppercase tracking-wider">Privacy Policy</a>
+                        <a href="/" className="hover:text-indigo-600 transition-colors uppercase tracking-wider">Documentation</a>
                     </div>
                 </div>
             </div>
