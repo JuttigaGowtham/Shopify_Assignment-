@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import axios from 'axios';
 import { MousePointer2, MousePointerClick, Scroll, Table, RefreshCw, AlertCircle } from 'lucide-react';
 import Footer from './Footer';
+import Visualizations from './Visualizations';
 
 const API_URL = 'http://localhost:5000/api/events';
 
@@ -256,6 +257,18 @@ function Home() {
                     </div>
                 </div>
             </main>
+
+            {/* Visualizations Section */}
+            <section className="mt-12 mb-16 px-4">
+                <div className="max-w-6xl mx-auto">
+                    <div className="text-center mb-8">
+                        <h2 className="text-3xl font-bold text-slate-900 mb-2">Interaction Analytics</h2>
+                        <p className="text-slate-600">Visual mapping of user behavior and engagement patterns.</p>
+                    </div>
+                    <Visualizations events={events} />
+                </div>
+            </section>
+
             <Footer />
         </div>
     );
